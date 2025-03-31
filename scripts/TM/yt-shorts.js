@@ -1,12 +1,14 @@
-
 // ==UserScript==
-// @name YouTube shorts in normal player
-// @version 1.0.1
-// @description This script will redirect YouTube shorts URLs to a normal player
-// @author andr
+// @name shorts in basic player
+// @namespace   akellare.ru
+// @version 0.1.0
+// @description open shorts in basic player
+// @author sweetdogs
 // @match https://www.youtube.com/shorts/*
 // @match https://youtube.com/shorts/*
 // @grant none
+// @updateURL   https://gist.github.com/pokedim13/d0705e9504f840bae5893a0754201a80/raw/yt-shorts.js
+// @downloadURL https://gist.github.com/pokedim13/d0705e9504f840bae5893a0754201a80/raw/yt-shorts.js
 // ==/UserScript==
 
 const current_url = document.location.href;
