@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name        nixos.wiki -> wiki.nixos.org
-// @namespace   sportshead.dev
+// @name        switch nixos.wiki to wiki.nixos.org
+// @namespace   akellare.ru
 // @match       https://nixos.wiki/*
 // @grant       none
-// @version     1.0
-// @author      sportshead
+// @version     0.1.0
+// @author      Sweetdogs
 // @description Redirect nixos.wiki URLs to wiki.nixos.org
-// @updateURL   https://gist.github.com/sportshead/6a212d03952f7e5ef27907a5ab90e72c/raw/nixos-wiki.user.js
-// @downloadURL https://gist.github.com/sportshead/6a212d03952f7e5ef27907a5ab90e72c/raw/nixos-wiki.user.js
+// @updateURL   https://gist.github.com/pokedim13/469a4fc6a3c5b419fe337886e1e3be10/raw/nixos-wiki.js
+// @downloadURL https://gist.github.com/pokedim13/469a4fc6a3c5b419fe337886e1e3be10/raw/nixos-wiki.js
 // ==/UserScript==
 
 window.location.host = "wiki.nixos.org";
